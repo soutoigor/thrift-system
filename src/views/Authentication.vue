@@ -26,12 +26,12 @@
 </template>
 
 <script>
-import AuthenticationForm from '@/components/AuthenticationForm'
+import AuthenticationForm from '@/components/auth/AuthenticationForm'
 
 export default {
   components: {
     AuthenticationForm,
-    SnackbarAlert: () => import('@/components/SnackbarAlert'),
+    SnackbarAlert: () => import('@/components/common/SnackbarAlert'),
   },
   props: {
     isLogin: {
