@@ -2,11 +2,6 @@
   <div>
     <h1>Home</h1>
     <h2>Olá, {{ userName }}</h2>
-    <v-btn
-      @click="logoutUser"
-    >
-      logout
-    </v-btn>
   </div>
 </template>
 
